@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: #1f2937;
+    background-color: #1d304b;
     padding-left: 12%;
     padding-right: 12%;
     box-sizing: border-box;
@@ -46,6 +46,9 @@ header{
 
 .container-left p {
     margin: 15px 20px 15px 0;
+    color: #f9faf8;
+    text-align: left;
+    font-size: 15px;
 }
 
 @media (max-width:1300px) {
@@ -171,17 +174,23 @@ a:hover {
 .img-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto;
     gap: 52px;
 }
 
+.img-container h2, p {
+    color: #1f2937;
+    text-align: center;
+}
+
 .img-container img {
-    width: 200px;
-    height: 200px;
-    border-radius: 10%;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
 }
 
 .img-box {
-    border: 2px solid black;
     border-radius: 10%;
 }
 
