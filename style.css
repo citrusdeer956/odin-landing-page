@@ -1,70 +1,87 @@
-*{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #f9faf8;
+* {
+    color: #1f2937;
+    font-family: 'Rubik', sans-serif;
 }
 
-html {
-    background-color: #1d304b;
-    padding-left: 12%;
-    padding-right: 12%;
-    box-sizing: border-box;
-}
-
-header{
+html, body {
     width: 100%;
-    height: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.section1{
-    width: 100%;
+header {
+    background-color: #1f2937;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+}
+
+header li, a, h3{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+nav {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 10px;
     padding: 8px;
     gap: 50px;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.section1{
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 70px;
+    background-color: #1f2937;
+}
+
 .container-left, .container-right {
     width: 40%;
+    display: flex;
 }
 
 .container-left {
     flex-direction: column;
-    padding: 10px;
-    display: flex;
+    padding: 0 10rem;
+}
+
+.container-left h3, p {
+    color: #fff;
 }
 
 .container-left h3 {
     font-size: 48px;
-    font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: auto;
-    line-height: 1.2;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.container-left p {
-    margin: 15px 20px 15px 0;
-    color: #f9faf8;
-    text-align: left;
-    font-size: 15px;
-}
-
-@media (max-width:1300px) {
-    .container-left p {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .container-left h3 {
-        text-align: center;
-    }
-}
-
-.container-right img {
-    width: 90%;
-    flex-shrink: 2;
-    border-radius: 5%;
+.submit {
+    background-color: #3882f6;
+    color: #fafafa;
+    border-radius: 0.5em;
+    font-size: 16px;
+    width: 125px;
+    height: 35px;
+    border: transparent;
+    margin: 5px 0 5px 0;
 }
 
 .container-right {
@@ -72,133 +89,4 @@ header{
     width: auto;
     margin-left: auto;
     margin-right: 0;
-}
-
-@media(max-width: 1300px){
-    .section1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 80%;
-        margin: auto;
-        padding: 8px;
-        gap: 30px;
-    }
-    .container-right, .container-left {
-        width: 100%;
-        margin: auto;
-    }
-}
-
-.navbar{
-    height: 12%;
-    display: flex;
-    align-items: center;
-}
-
-nav {
-    display: inline-block;
-    flex: 1;
-    text-align: right;
-    margin-left: 400px;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #f9faf865;
-    font-size: 18px;
-    margin-left: auto;
-}
-
-nav ul li a:hover {
-    text-decoration: none;
-    color: #fff;
-}
-
-a {
-    color: #f9faf8;
-    text-decoration: none;
-    list-style: none;
-}
-
-a:hover {
-    color: #f9faf865
-}
-
-.logo{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    font-size: 24px;
-}
-
-.submit {
-    background-color: #3882F6;
-    color: #f9faf8;
-    border-radius: 0.5em;
-    font-size: 16px;
-    font-weight: 800;
-    width: 125px;
-    height: 35px;
-    border: transparent;
-    margin: 5px 0 5px 0;
-}
-
-.section2{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    margin: auto;
-    gap: 50px;
-    background-color: #f9faf8;
-}
-
-.motto-header{
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-    text-align: center;
-}
-
-.motto-header em {
-    color: #1f2937;
-}
-
-.img-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    gap: 52px;
-}
-
-.img-container h2, p {
-    color: #1f2937;
-    text-align: center;
-}
-
-.img-container img {
-    width: 230px;
-    height: 230px;
-    object-fit: cover;
-}
-
-.img-box {
-    border-radius: 10%;
-}
-
-.section3 {
-    position: relative;
-}
-
-footer p {
-    color: #f9faf8;
-    text-align: center;
 }
