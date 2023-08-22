@@ -194,3 +194,11 @@ a:hover {
     border-radius: 10%;
 }
 
+.section3 {
+    position: relative;
+}
+
+footer p {
+    color: #f9faf8;
+    text-align: center;
+}
