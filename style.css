@@ -1,5 +1,5 @@
 * {
-    font-family: 'Rubik' sans-serif;
+    font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
 
@@ -182,7 +182,7 @@ nav ul {
 
 .img-container p {
     color: #1f2937;
-    margin: 1rem 4rem;
+    margin: 1rem 3rem;
 }
 
 .section3 {
