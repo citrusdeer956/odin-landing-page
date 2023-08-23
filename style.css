@@ -1,6 +1,5 @@
 * {
-    background-color: #1f2937;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik' sans-serif;
 }
 
 html, body {
@@ -8,6 +7,11 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #1f2937;
+}
+
+html{
+    overflow-x: hidden;
 }
 
 header {
@@ -47,6 +51,7 @@ nav ul {
     align-items: center;
     padding: 70px;
     background-color: #1f2937;
+    gap: 5px;
 }
 
 .container-left, .container-right {
@@ -56,7 +61,7 @@ nav ul {
 
 .container-left {
     flex-direction: column;
-    padding: 0 10rem;
+    padding: 0 8rem;
 }
 
 .container-left h3, p {
@@ -82,8 +87,64 @@ nav ul {
 }
 
 .container-right {
-    align-content: flex-end;
     width: auto;
     margin-left: auto;
     margin-right: 0;
+}
+
+.section2 {
+    text-align: center;
+    width: 100%;
+    background-color: #fafafa;
+    margin: 0;
+    position: absolute;
+    padding: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 25px;
+}
+
+.motto-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.img-box {
+    max-width: 200px;
+}
+
+.img-container p {
+    color: #1f2937;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    color:#2e2e2e;
+}
+
+.section3 p {
+    text-align: right;
+}
+
+blockquote {
+    margin: 0 400px;
+    padding: 40px;  
+    color: #2e2e2e;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+    text-align: left;
+}
+
+blockquote p {
+    color:#2e2e2e;
+}
+
+footer p{
+    color:#1f2937;
 }
