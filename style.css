@@ -1,5 +1,5 @@
 * {
-    color: #1f2937;
+    background-color: #1f2937;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -11,13 +11,11 @@ html, body {
 }
 
 header {
-    background-color: #1f2937;
-    width: auto;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 8px;
+    margin: 10px;
 }
 
 header li, a, h3{
@@ -29,25 +27,24 @@ header li, a, h3{
 
 nav {
     display: flex;
-    justify-content: center;
-    padding: 8px;
-    gap: 50px;
+    gap: 50rem;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     margin: 0;
     padding: 0;
     gap: 15px;
 }
 
+.navlinks {
+    display: flex;
+    gap: 54px;
+}
+
 .section1{
-    width: auto;
     display: flex;
     align-items: center;
-    margin: 0;
     padding: 70px;
     background-color: #1f2937;
 }
