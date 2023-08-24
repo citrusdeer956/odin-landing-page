@@ -29,8 +29,12 @@ header li, header a, header h3{
     font-weight: 500;
 }
 
+header a{
+    transition: ease-in 0.3s;
+}
+
 header a:hover{
-   color:#3882f6
+   color:#3882f6;
 }
 
 .logo {
@@ -117,10 +121,11 @@ nav ul {
     height: 35px;
     border: transparent;
     margin: 5px 0 5px 0;
+    transition: ease-in 0.3s;
 }
 
 .submit:hover{
-    background-color: #87a0c9;
+    background-color: #fafafa;
     color: #2e2e2e;
 }
 
@@ -264,6 +269,6 @@ footer p{
 }
 
 .v2 {
-    border: 3px solid white;
+    border: 3px solid #fafafa;
     font-style: bold;
 }
