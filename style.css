@@ -179,10 +179,16 @@ nav ul {
     width: 200px;
     margin: 1em 2em 0 2em;
     border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+
+.img-box:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px #2e2e2e5e;
 }
 
 .img-container h2 {
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 1.5rem 0 0.5rem 0;
     text-transform: uppercase;
 }
 
