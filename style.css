@@ -49,14 +49,12 @@ header a:hover{
 
 nav {
     display: flex;
-    gap: 58rem;
+    gap: 8rem;
 }
 
 nav ul {
-    align-items: center;
     margin: 0;
     padding: 0;
-    gap: 15px;
 }
 
 .navlinks {
@@ -74,13 +72,7 @@ nav ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-}
-
-@media (max-width: 1200px) {
-    .section1container{
-        flex-direction: column;
-    }
+    gap: 25px;
 }
 
 .section1{
@@ -92,14 +84,18 @@ nav ul {
 
 .container-left {
     margin: 3em 2em 3em 5em;
-    width: 40vw;
+    /* width: 40vw; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .container-left h3 {
     font-size: 48px;
+    color: #fafafa;
+}
+
+.container-left h2 {
+    font-size: 54px;
     color: #fafafa;
     margin: 0;
 }
@@ -157,8 +153,14 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 21.5rem;
+    margin: 0 10rem;
     flex-wrap: wrap;
+}
+
+.employees {
+    text-align: center;
+    padding-bottom: 1em;
+    color: white;
 }
 
 .motto-header{
@@ -166,6 +168,10 @@ nav ul {
     font-weight: 800;
     color: #1f2937;
     padding-top: 50px;
+}
+
+.our-heros {
+    font-size: 45px;
 }
 
 .img-section {
